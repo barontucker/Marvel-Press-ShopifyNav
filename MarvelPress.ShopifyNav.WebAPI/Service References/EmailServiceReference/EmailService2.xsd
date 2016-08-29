@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WebNotificationServices.Classes.Email" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WebNotificationServices.Classes.Email" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:58424/EmailService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WebNotificationServices.Classes.Enum" />
+  <xs:complexType name="ErrorNotification">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EmailNotification">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ErrorNotification" nillable="true" type="tns:ErrorNotification" />
+  <xs:complexType name="EmailNotification">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Footer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Header" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WebNotificationServices.Classes.Enum" minOccurs="0" name="Priority" type="q1:NotificationPriority" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EmailNotification" nillable="true" type="tns:EmailNotification" />
+</xs:schema>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="62e7986d-101e-499d-a30f-fc964c0f7dc3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58424/EmailService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EmailService.xsd" MetadataType="Schema" ID="de5eb149-d0df-4c69-8b4b-2a2b83d5b946" SourceId="1" SourceUrl="http://localhost:58424/EmailService.svc?xsd=xsd0" />
+    <MetadataFile FileName="EmailService.disco" MetadataType="Disco" ID="7ed86e47-e5fa-4509-b88c-8aa5ce9c7a99" SourceId="1" SourceUrl="http://localhost:58424/EmailService.svc?disco" />
+    <MetadataFile FileName="EmailService1.xsd" MetadataType="Schema" ID="feef3985-b20d-44ed-b5ef-d5a9f729617a" SourceId="1" SourceUrl="http://localhost:58424/EmailService.svc?xsd=xsd3" />
+    <MetadataFile FileName="EmailService2.xsd" MetadataType="Schema" ID="4294e7e1-9ec4-40d7-99a4-eecabf32b184" SourceId="1" SourceUrl="http://localhost:58424/EmailService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EmailService.wsdl" MetadataType="Wsdl" ID="2fa4f318-eb66-4142-a8ae-a76603f56e94" SourceId="1" SourceUrl="http://localhost:58424/EmailService.svc?wsdl" />
+    <MetadataFile FileName="EmailService3.xsd" MetadataType="Schema" ID="84a1550e-fabe-4c1e-b0e6-25d071a30dd5" SourceId="1" SourceUrl="http://localhost:58424/EmailService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

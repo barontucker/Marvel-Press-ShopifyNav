@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelPress.ShopifyNav.WebAPI", "MarvelPress.ShopifyNav.WebAPI\MarvelPress.ShopifyNav.WebAPI.csproj", "{12D8B3C2-BEC5-4736-8390-0FA1ACA8C8E6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D5B4ACC5-52AA-40A8-B4D2-D6D31247B7D4} = {D5B4ACC5-52AA-40A8-B4D2-D6D31247B7D4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelPress.ShopifyNav.WebAPI.Tests", "MarvelPress.ShopifyNav.WebAPI.Tests\MarvelPress.ShopifyNav.WebAPI.Tests.csproj", "{185435FA-A2D3-41F5-8367-D9FE20D573C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNotificationServices", "E:\MarvelPress.ShopifyNav\WebNotificationServices\WebNotificationServices.csproj", "{D5B4ACC5-52AA-40A8-B4D2-D6D31247B7D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12D8B3C2-BEC5-4736-8390-0FA1ACA8C8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D8B3C2-BEC5-4736-8390-0FA1ACA8C8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D8B3C2-BEC5-4736-8390-0FA1ACA8C8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D8B3C2-BEC5-4736-8390-0FA1ACA8C8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185435FA-A2D3-41F5-8367-D9FE20D573C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185435FA-A2D3-41F5-8367-D9FE20D573C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185435FA-A2D3-41F5-8367-D9FE20D573C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185435FA-A2D3-41F5-8367-D9FE20D573C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B4ACC5-52AA-40A8-B4D2-D6D31247B7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B4ACC5-52AA-40A8-B4D2-D6D31247B7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B4ACC5-52AA-40A8-B4D2-D6D31247B7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B4ACC5-52AA-40A8-B4D2-D6D31247B7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
